@@ -1,6 +1,8 @@
 # Object Oriented Programming
 ## Description 
-![alt text](readme-images/image.png)
+
+![Alt Text](https://example.com/readme-images/image.png)
+
 
 Object-Oriented Programming (OOP) is a fundamental concept in software development that revolves around the concept of classes and objects.
 
