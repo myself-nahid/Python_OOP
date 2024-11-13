@@ -13,9 +13,13 @@ In this article, we will explore core OOP concepts using easy to understand code
 A class is a blueprint or template that defines the properties and behavior of an object. An Object is an instances of a class, created using the class definition.
 ```
 Here's an example of a class definition in Python:
+
 ![alt text](readme-images/image-1.png)
+
 In this example, the Car class is a blueprint that defines the properties of a car.
+
 ![alt text](readme-images/image2.png)
+
 We create two objects, toyota_car and chevrolet_car which are instances of the Car class. Both car objects can invoke start_engine() method using their own values for the make, model and year properties.
 
 
@@ -28,6 +32,7 @@ Encapsulation helps protect the object's internal state from external interferen
 In Python, you can achieve encapsulation using private attributes and methods, denoted by a double underscore prefix (__).
 
 ![alt text](readme-images/image3.png)
+
 In this example, the __account_number and __balance attributes are private, meaning it can't be accessed directly from outside the class. We interact with it through the deposit, withdraw, and get_balance methods.
 
 ## 3. Inheritance
@@ -59,6 +64,7 @@ Method overriding is when a subclass provides a specific implementation of a met
 For example, let’s say we have an interface Document which defines a method show().
 
 ![alt text](readme-images/image5.png)
+
 Each subclass (Pdf, Word) of Document implement the show method differently (method overriding), but the interface remains consistent giving the ability to iterate over both the classes using a single for loop.
 
 ## 5. Abstraction
